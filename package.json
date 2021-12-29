@@ -1,0 +1,38 @@
+{
+  "name": "iink-ts",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "commit": "cz",
+    "push": "git add . && npm run commit && git push",
+    "build": "vue-tsc --noEmit && vite build",
+    "preview": "vite preview",
+    "prepare": "husky install"
+  },
+  "dependencies": {
+    "commitizen": "^4.2.4",
+    "p5": "^1.4.0",
+    "vue": "^3.2.25"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^2.0.0",
+    "autoprefixer": "^10.4.0",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^8.5.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "eslint-plugin-vue": "^8.2.0",
+    "husky": "^7.0.4",
+    "path": "^0.12.7",
+    "postcss": "^8.4.5",
+    "prettier": "^2.5.1",
+    "stylelint": "^14.2.0",
+    "stylelint-config-prettier": "^9.0.3",
+    "stylelint-config-standard": "^24.0.0",
+    "stylelint-order": "^5.0.0",
+    "typescript": "^4.4.4",
+    "vite": "^2.7.2",
+    "vite-plugin-compression": "^0.4.0",
+    "vue-tsc": "^0.29.8"
+  }
+}
